@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Bed & Breakfasts at Assateague Island</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Assateague Island is near several bed and breakfasts that have different price ranges, amenties, and locations. There are Victorian-era, 19th-century, classic 21st century, and Southern colonial-style bed and breakfasts.">
+  <!--Favicon-->
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png">
+  <!--Roboto font via Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!--CDN for hamburger menu icon on mobile screens-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Font Awesome Icon for Scroll to Top Button-->
+  <script src="https://kit.fontawesome.com/6343a75528.js" crossorigin="anonymous"></script>
+  <!--External Main Stylesheet-->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="container">
+    <!--Header with site logo and title-->
+    <header>
+      <a href="index.html" aria-label="Site logo">
+        <img id="logo" src="images/sitelogo.png" alt="Home">
+      </a>
+    </header>
+    <!--Horizontal navigation menu bar with drop-down menu for Stay page-->
+    <div class="navbar" id="myNav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <div class="dropdown">
+          <button class="dropbtn" onclick="window.location.href='stay.html'">Stay</button>
+        <div class="dropdown-pages">
+          <a href="hotels.html">Hotels</a>
+          <a href="#">Bed & Breakfasts</a>
+          <a href="camp.html">Camping</a>
+          <a href="vacation.html">Vacation Rentals</a>
+        </div>
+      </div>
+      <a href="play.html">Play</a>
+      <a href="eat.html">Eat</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <!--hamburger navigation menu icon-->
+        <i class="fa fa-bars"></i>
+      </a>
+     </div>
+    <!--Div for Bed & Breakfasts near the island-->
+    <div class="content">
+      <h2 class="content">Bed & Breakfasts</h2>
+      <!--HR divider-->
+    <hr class="divider">
+    <!--Bed & Breakfasts Info section-->
+      <h3 class="bedInfo">Miss Molly's Inn</h3>
+      <img src="images/bed1.jpg" alt="Miss Molly's Inn" class="bed">
+      <p class="bedInfo">This is a Victorian-era B&B that offers homemade breakfast and tea, as well as access to a library and beach gear.</p>
+      <p class="bedInfo">4141 Main St<br>Chincoteague, VA 23336</p>
+      <a href="tel:1-757-336-6686" class="bedInfo">(757) 336-6686</a><br>
+      <button type="button" class="buttonInfo" onclick="location.href='https://missmollys-inn.com/'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="bedInfo">River House Inn</h3>
+      <img src="images/bed2.jpg" alt="River House Inn" class="bed">
+      <p class="bedInfo">This is a 19th-century B&B that offers several amenities including an outdoor pool, private porches, fireplaces, and an area to barbeque.</p>
+      <p class="bedInfo">201 E Market St<br>Snow Hill, MD 21863</p>
+      <a href="tel:1-410-632-2722" class="bedInfo">(410) 632-2722</a><br>
+      <button type="button" class="buttonInfo" onclick="location.href='https://www.riverhouseinn.com/'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="bedInfo">Cedar Gables Seaside Inn</h3>
+      <img src="images/bed3.jpg" alt="Cedar Gables Seaside Inn" class="bed">
+      <p class="bedInfo">This is a classic island B&B that offers free Wi-Fi, as well as access to private entraces and breakfast served on waterfront porches.</p>
+      <p class="bedInfo">6095 Hopkins Ln<br>Chincoteague, VA 23336</p>
+      <a href="tel:1-757-336-6860" class="bedInfo">(757) 336-6860</a><br>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="bedInfo">Island Manor House</h3>
+      <img src="images/bed4.jpg" alt="Island Manor House" class="bed">
+      <p class="bedInfo">Island Manor House is a Southern Colonial-style B&B that offers free Wi-Fi, afternoon tea service, and access to a courtyard.</p>
+      <p class="bedInfo">4160 Main St<br>Chincoteague, VA 23336</p>
+      <a href="tel:1-757-336-5436" class="bedInfo">(757) 336-5436</a><br>
+      <button type="button" class="buttonInfo-last" onclick="location.href='https://islandmanor.com/'">Website</button>
+  </div>
+  <!-- Back to top button -->
+  <a id="button" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+  <!--Footer containing copyright notice and link to logomakr.com-->
+  <div class="footer">
+    <p>Copyright 2020 By Valerie Hare. Created my free logo at <a href="https://logomakr.com/">LogoMakr.</a></p>
+  </div>
+ </div>
+ <!--Bootstrap jQuery, Popper.JS, and Bootstrap JS Sript CDN-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!--External JS file-->
+  <script src="scripts/main.js"></script>
+ </body>
+</html>

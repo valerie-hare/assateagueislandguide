@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Eat at Assateague Island</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Assateague Island is close to a variety of places to eat, including seafood, casual American, fine dining, ice cream, donuts, smoothies, and bars.">
+  <!--Favicon-->
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png">
+  <!--Roboto font via Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!--CDN for hamburger menu icon on mobile screens-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Font Awesome Icon for Scroll to Top Button-->
+  <script src="https://kit.fontawesome.com/6343a75528.js" crossorigin="anonymous"></script>
+  <!--Lightbox Stylesheet-->
+  <link rel="stylesheet" href="styles/lightbox.css">
+  <!--External Main Stylesheet-->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="container">
+    <!--Header with site logo and title-->
+    <header>
+      <a href="index.html" aria-label="Site logo">
+        <img id="logo" src="images/sitelogo.png" alt="Home">
+      </a>
+    </header>
+    <!--Horizontal navigation menu bar with drop-down menu for Stay page-->
+    <div class="navbar" id="myNav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <div class="dropdown">
+          <button class="dropbtn" onclick="window.location.href='stay.html'">Stay</button>
+        <div class="dropdown-pages">
+          <a href="hotels.html">Hotels</a>
+          <a href="bed.html">Bed & Breakfasts</a>
+          <a href="camp.html">Camping</a>
+          <a href="vacation.html">Vacation Rentals</a>
+        </div>
+      </div>
+      <a href="play.html">Play</a>
+      <a href="#">Eat</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <!--hamburger navigation menu icon-->
+        <i class="fa fa-bars"></i>
+      </a>
+     </div>
+    <!--Hero banner image on stay page-->
+    <div class="banner5">
+    </div>
+    <!--Div for eating at the island-->
+    <div class="content">
+      <h2 class="content">Where to Eat</h2>
+      <!--HR divider-->
+    <hr class="divider">
+    <!--Restaurant Info section-->
+      <h3 class="eatInfo">Assateague Diner + Bar</h3>
+      <a href="images/food1.jpg" data-lightbox="eatImgs" data-title="Assateague Diner + Bar">
+        <img src="images/food1.jpg" alt="Assateague Diner food" class="eat">
+      </a>
+      <p class="eatInfo">This Ocean City diner is all about classic foods with a modern coastal fusion and refreshing wines, beer, and cocktails.</p>
+      <p class="eatInfo">9636 Stephen Decatur Hwy<br>Ocean City, MD 21842</p>
+      <a href="tel:1-443-664-8158" class="eatInfo">(443) 664-8158</a><br>
+      <!--Website Button Link-->
+      <button type="button" class="buttonInfo" onclick="location.href='https://www.assateaguedinerandbar.com/'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="eatInfo">Beach Road Round-Up</h3>
+      <a href="images/food2.jpg" data-lightbox="eatImgs" data-title="Beach Road Round-Up">
+        <img src="images/food2.jpg" alt="Beach Road food" class="eat">
+      </a>
+      <p class="eatInfo">This restaurant serves classic American food and offers a relaxed environment to enjoy good food with friends.</p>
+      <p class="eatInfo">6341 Maddox Boulevard<br>Chincoteague, VA 23336</p>
+      <a href="tel:1-757-336-0617" class="eatInfo">(757) 336-0617</a><br>
+      <button type="button" class="buttonInfo" onclick="location.href='https://beachroadroundup.business.site/'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="eatInfo">Island Creamery</h3>
+      <a href="images/food3.jpg" data-lightbox="eatImgs" data-title="Island Creamery">
+        <img src="images/food3.jpg" alt="Island Creamery ice cream" class="eat">
+      </a>
+      <p class="eatInfo">Enjoy homemade and unique flavors of ice cream and waffle cones from a business that has been making ice cream since 1985.</p>
+      <p class="eatInfo">6243 Maddox Boulevard<br>Chincoteague, VA 23336</p>
+      <a href="tel:1-757-336-6236" class="eatInfo">(757) 336-6236</a><br>
+      <button type="button" class="buttonInfo" onclick="location.href='https://www.islandcreamery.net/'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="eatInfo">Sandy Pony Donuts</h3>
+      <a href="images/food4.jpg" data-lightbox="eatImgs" data-title="Sandy Pony Donuts">
+        <img src="images/food4.jpg" alt="Sandy Pony donuts" class="eat">
+      </a>
+      <p class="eatInfo">A donut shop that offers delicious sweets like 24 custom donut flavors, bubble tea, healthy acai bowls, and fresh coffee.</p>
+      <p class="eatInfo">6300 Maddox Blvd<br>Chincoteague, VA 23336</p>
+      <a href="tel:1-410-474-5885" class="eatInfo">(410) 474-5885</a><br>
+      <button type="button" class="buttonInfo" onclick="location.href='http://sandyponydonut.com/'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="eatInfo">Sunset Grille and Teasers Bar</h3>
+      <a href="images/food5.jpg" data-lightbox="eatImgs" data-title="Sunset Grille and Teasers Bar">
+        <img src="images/food5.jpg" alt="Sunset Grille steak" class="eat">
+      </a>
+      <p class="eatInfo">Enjoy fresh seafood, steaks, and cocktails with a scenic view of the bay.</p>
+      <p class="eatInfo">12933 Sunset Avenue<br>West Ocean City, MD 21842</p>
+      <a href="tel:1-410-213-8110" class="eatInfo">(410) 213-8110</a><br>
+      <button type="button" class="buttonInfo" onclick="location.href='https://ocsunsetgrille.com/'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="eatInfo">Waterman's Seafood Co.</h3>
+      <a href="images/food6.jpg" data-lightbox="eatImgs" data-title="Waterman's Seafood Co.">
+        <img src="images/food6.jpg" alt="Waterman's Crab dinner" class="eat">
+      </a>
+      <p class="eatInfo">This modern, family restaurant offers all-you-can-eat crabs, fried chicken, and oysters.</p>
+      <p class="eatInfo">12505 Ocean Getaway<br>Ocean City, MD 21842</p>
+      <a href="tel:1-410-213-1020" class="eatInfo">(410) 213-1020</a><br>
+      <button type="button" class="buttonInfo-last" onclick="location.href='http://crabsoc.com/'">Website</button>
+  </div>
+  <!-- Back to top button -->
+  <a id="button" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+  <!--Footer containing copyright notice and link to logomakr.com-->
+  <div class="footer">
+    <p>Copyright 2020 By Valerie Hare. Created my free logo at <a href="https://logomakr.com/">LogoMakr.</a></p>
+  </div>
+ </div>
+ <!--Bootstrap jQuery, Popper.JS, and Bootstrap JS Sript CDN-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!--External JS file-->
+  <script src="scripts/main.js"></script>
+  <!--Lighbox JS file-->
+  <script src="scripts/lightbox-plus-jquery.js"></script>
+ </body>
+</html>

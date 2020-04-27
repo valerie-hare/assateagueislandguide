@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>About Assateague Island</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Assateague Island is a 37 mile long island located along Maryland and Virginia's coasts. This guide provides information about the park's hours, entrance fees, and visitor centers.">
+  <!--Favicon-->
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png">
+  <!--Roboto font via Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!--CDN for hamburger menu icon on mobile screens-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Font Awesome Icon for Scroll to Top Button-->
+  <script src="https://kit.fontawesome.com/6343a75528.js" crossorigin="anonymous"></script>
+  <!--External Main Stylesheet-->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="container">
+    <!--Header with site logo and title-->
+    <header>
+      <a href="index.html" aria-label="Site logo">
+        <img id="logo" src="images/sitelogo.png" alt="Home">
+      </a>
+    </header>
+    <!--Horizontal navigation menu bar with drop-down menu for Stay page-->
+    <div class="navbar" id="myNav">
+      <a href="index.html" class="active">Home</a>
+      <a href="#">About</a>
+      <div class="dropdown">
+          <button class="dropbtn" onclick="window.location.href='stay.html'">Stay</button>
+        <div class="dropdown-pages">
+          <a href="hotels.html">Hotels</a>
+          <a href="bed.html">Bed & Breakfasts</a>
+          <a href="camp.html">Camping</a>
+          <a href="vacation.html">Vacation Rentals</a>
+        </div>
+      </div>
+      <a href="play.html">Play</a>
+      <a href="eat.html">Eat</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <!--hamburger navigation menu icon-->
+        <i class="fa fa-bars"></i>
+      </a>
+     </div>
+    <!--Hero banner image on about page with banner text that has contenteditable element-->
+    <div class="banner2">
+        <p class="aboutText" contenteditable="true">About Assateague Island</p>
+    </div>
+    <!--Div for about the island content-->
+    <div class="content">
+      <h2 class="content">Visiting the Park</h2>
+      <!--HR divider-->
+    <hr class="divider">
+      <p class="content">Assateague Island is a 37 mile long island located along
+      Maryland and Virginia's coasts. The Maryland district is run by the
+      National Park Service as <a href="https://www.nationalparks.org/explore-parks/assateague-island-national-seashore">Assateague Island National Seashore</a>. Maryland
+      manages two miles of its district as Assateague State Park. The Virginia district is run by the U.S. Fish & Wildlife Service as <a href="https://www.fws.gov/refuge/chincoteague/">Chincoteague National
+      Wildlife Refuge</a>.<br><br>Assateague Island has two miles of scenic ocean beaches. This island is best known for its wild Assateague horses that have roamed the sandy beaches and maritime woods
+      for hundreds of years.</p>
+      <!--Park hours-->
+      <h2 class="content">Park Hours</h2>
+    <hr class="divider">
+      <p class="hours">The <strong>Virginia</strong> district is open:</p>
+      <ul class="hours">
+        <li>January - February from 6 am - 6 pm.</li>
+        <li>March - April from 6 am - 8 pm.</li>
+        <li>May - September from 5 am - 10 pm.</li>
+        <li>October from 6 am - 8 pm.</li>
+        <li>November - December from 6 am - 6 pm.</li>
+      </ul>
+      <p class="hours">The <strong>Maryland</strong> district is open:</p>
+      <ul class="hours">
+        <li>All year long and 24 hours a day.</li>
+      </ul>
+      <!--Entrance fees-->
+      <h2 class="content">Entrance Fees</h2>
+      <hr class="divider">
+      <p class="fees">The <strong>Virginia</strong> district fees:</p>
+      <ul class="fees">
+        <li>Foot and bicycle: no fee.</li>
+        <li>Vehicle: $20 for 7 days.</li>
+        <li>Vehicle: $40 for Refuge Annual Pass.</li>
+      </ul>
+      <p class="fees">The <strong>Maryland</strong> district fees:</p>
+      <ul class="fees">
+        <li>Foot and bicycle: no fee.</li>
+        <li>Vehicle: $25 for 7 days.</li>
+        <li>Vehicle: $45 for annual park pass.</li>
+        <li>Motorcycle: $20 for 7 days.</li>
+        <li>Individual: $15 for 7 days.</li>
+      </ul>
+      <!--Visitor center information-->
+      <h2 class="content">Visitor Centers</h2>
+      <hr class="divider">
+      <p class="visitor">Assateague Island Visitor Center:<br>
+        Phone: <a href="tel:1-401-641-1441">(401) 461-1441</a></p>
+      <p class="visitor">Toms Cove Visitor Center:<br>
+        Phone: <a href="tel:1-757-336-6577">(757) 336-6577</a></p>
+    </div>
+    <!-- Back to top button -->
+    <a id="button" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+    <!--Footer containing copyright notice and link to logomakr.com-->
+    <div class="footer">
+      <p>Copyright 2020 By Valerie Hare. Created my free logo at <a href="https://logomakr.com/">LogoMakr.</a></p>
+    </div>
+   </div>
+   <!--Bootstrap jQuery, Popper.JS, and Bootstrap JS Sript CDN-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--External JS file-->
+    <script src="scripts/main.js"></script>
+ </body>
+</html>

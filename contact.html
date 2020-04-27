@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Assateague Island Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Assateague Island Guide today, the leading travel guide for vacationing to Assateague and Chincoteague Island.">
+  <!--Favicon-->
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png">
+  <!--Roboto font via Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!--CDN for hamburger menu icon on mobile screens-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Font Awesome Icon for Scroll to Top Button-->
+  <script src="https://kit.fontawesome.com/6343a75528.js" crossorigin="anonymous"></script>
+  <!--External Main Stylesheet-->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="container">
+    <!--Header with site logo and title-->
+    <header>
+      <a href="index.html" aria-label="Site logo">
+        <img id="logo" src="images/sitelogo.png" alt="Home">
+      </a>
+    </header>
+    <!--Horizontal navigation menu bar with drop-down menu for Stay page-->
+    <div class="navbar" id="myNav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <div class="dropdown">
+          <button class="dropbtn" onclick="window.location.href='stay.html'">Stay</button>
+        <div class="dropdown-pages">
+          <a href="hotels.html">Hotels</a>
+          <a href="bed.html">Bed & Breakfasts</a>
+          <a href="camp.html">Camping</a>
+          <a href="vacation.html">Vacation Rentals</a>
+        </div>
+      </div>
+      <a href="play.html">Play</a>
+      <a href="eat.html">Eat</a>
+      <a href="#">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <!--hamburger navigation menu icon-->
+        <i class="fa fa-bars"></i>
+      </a>
+     </div>
+    <!--Div for main contact page-->
+    <div class="content">
+      <h2 class="contactInfo">Contact Us</h2>
+      <hr class="divider">
+      <!--Contact form paragraph-->
+      <p class="contactInfo">Assateague Island Guide is the leading travel guide for vacationing at Assateague and Chincoteague Island. Contact us below with your questions and comments.</p>
+      <!--Contact Form div-->
+      <div id="contactForm">
+        <form method="get">
+        <div class="text">
+          <label>Name: </label>
+          <input type="text" name="myName">
+        </div>
+
+        <div class="text">
+          <label>Email: </label>
+          <input type="email" name="myEmail">
+        </div>
+
+        <div class="text">
+          <label>Message: </label>
+          <textarea rows="4" cols="40"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btnSubmit">
+        </form>
+       </div>
+    </div>
+    <!-- Back to top button -->
+    <a id="button" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+  <!--Footer containing copyright notice and link to logomakr.com-->
+   <div class="footer">
+    <p>Copyright 2020 By Valerie Hare. Created my free logo at <a href="https://logomakr.com/">LogoMakr.</a></p>
+   </div>
+  </div>
+  <!--Bootstrap jQuery, Popper.JS, and Bootstrap JS Sript CDN-->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!--External JS file-->
+  <script src="scripts/main.js"></script>
+ </body>
+</html>

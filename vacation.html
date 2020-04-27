@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Vacation at Assateague Island</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Assateague Island is near a variety of vacation rentals ranging in different prices, amentities, and locations. This is a popular choice for families or big groups that need more space and room to vacation.">
+  <!--Favicon-->
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png">
+  <!--Roboto font via Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!--CDN for hamburger menu icon on mobile screens-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Font Awesome Icon for Scroll to Top Button-->
+  <script src="https://kit.fontawesome.com/6343a75528.js" crossorigin="anonymous"></script>
+  <!--External Main Stylesheet-->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="container">
+    <!--Header with site logo and title-->
+    <header>
+      <a href="index.html" aria-label="Site logo">
+        <img id="logo" src="images/sitelogo.png" alt="Home">
+      </a>
+    </header>
+    <!--Horizontal navigation menu bar with drop-down menu for Stay page-->
+    <div class="navbar" id="myNav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <div class="dropdown">
+          <button class="dropbtn" onclick="window.location.href='stay.html'">Stay</button>
+        <div class="dropdown-pages">
+          <a href="hotels.html">Hotels</a>
+          <a href="bed.html">Bed & Breakfasts</a>
+          <a href="camp.html">Camping</a>
+          <a href="#">Vacation Rentals</a>
+        </div>
+      </div>
+      <a href="play.html">Play</a>
+      <a href="eat.html">Eat</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <!--hamburger navigation menu icon-->
+        <i class="fa fa-bars"></i>
+      </a>
+     </div>
+    <!--Div for Vacation Rentals near the island-->
+    <div class="content">
+      <h2 class="content">Vacation Rentals</h2>
+      <!--HR divider-->
+    <hr class="divider">
+    <!--Vacation Rentals Info section-->
+      <h3 class="vacInfo">Chincoteague Island Beach House</h3>
+      <img src="images/vac1.jpg" alt="Chincoteague Island Beach House" class="vac">
+      <p class="vacInfo">This vacation house has 3 bedrooms, 2 baths, an outdoor shower, and a screened porch to overlook the Assateague Channel.</p>
+      <p class="vacInfo">Chincoteague, VA 23336</p>
+      <button type="button" class="buttonInfo" onclick="location.href='https://www.airbnb.com/rooms/31870334?adults=2&check_in=2020-03-30&check_out=2020-04-02&source_impression_id=p3_1583687734_%2FmO%2F%2FilVUaZFCCPR'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="vacInfo">Assateague Breeze</h3>
+      <img src="images/vac2.jpg" alt="Assateague Breeze" class="vac">
+      <p class="vacInfo">This vacation home has 3 bedrooms, 2 baths, a gas fireplace, charcoal grill, screened porch, and outdoor shower.</p>
+      <p class="vacInfo">Chincoteague, VA 23336</p>
+      <button type="button" class="buttonInfo" onclick="location.href='https://www.vrbo.com/1083150?adultsCount=2&arrival=2020-03-30&departure=2020-04-02'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="vacInfo">Coco Banana</h3>
+      <img src="images/vac3.jpg" alt="Coco Banana" class="vac">
+      <p class="vacInfo">This vacation home has 2 bedrooms, 2 baths, a spacious kitchen with a gas range, full-sized washer and dryer, and outdoor shower.</p>
+      <p class="vacInfo">Chincoteague, VA 23336</p>
+      <button type="button" class="buttonInfo-last" onclick="location.href='https://www.vrbo.com/1895325?adultsCount=2&arrival=2020-03-30&departure=2020-04-02'">Website</button>
+      <!--HR divider-->
+      <hr class="divider">
+      <h3 class="vacInfo">Sand Penny</h3>
+      <img src="images/vac4.jpg" alt="Sand Penny" class="vac">
+      <p class="vacInfo">This vacation duplex has 3 bedrooms, 2 baths, a charcoal grill, screen porch, deck, and outside shower.</p>
+      <p class="vacInfo">Chincoteague, VA 23336</p>
+      <button type="button" class="buttonInfo-last" onclick="location.href='https://www.vrbo.com/1597016?adultsCount=2'">Website</button>
+  </div>
+  <!-- Back to top button -->
+  <a id="button" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+  <!--Footer containing copyright notice and link to logomakr.com-->
+  <div class="footer">
+    <p>Copyright 2020 By Valerie Hare. Created my free logo at <a href="https://logomakr.com/">LogoMakr.</a></p>
+  </div>
+ </div>
+ <!--Bootstrap jQuery, Popper.JS, and Bootstrap JS Sript CDN-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!--External JS file-->
+  <script src="scripts/main.js"></script>
+ </body>
+</html>

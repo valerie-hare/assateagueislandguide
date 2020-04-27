@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Explore Assateague Island</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Assateague Island is a great place to explore the beautiful coastal wildlife, sandy beaches, salt marshes, and maritime forests. Visitors enjoy birdwatching, dolphin watching, fishing, kayaking, watching the pony swim, bicycling, swimming, and beachcombing.">
+  <!--Favicon-->
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png">
+  <!--Roboto font via Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!--CDN for hamburger menu icon on mobile screens-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Font Awesome Icon for Scroll to Top Button-->
+  <script src="https://kit.fontawesome.com/6343a75528.js" crossorigin="anonymous"></script>
+  <!--Lightbox Stylesheet-->
+  <link rel="stylesheet" href="styles/lightbox.css">
+  <!--External Main Stylesheet-->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="container">
+    <!--Header with site logo and title-->
+    <header>
+      <a href="index.html" aria-label="Site logo">
+        <img id="logo" src="images/sitelogo.png" alt="Home">
+      </a>
+    </header>
+    <!--Horizontal navigation menu bar with drop-down menu for Stay page-->
+    <div class="navbar" id="myNav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <div class="dropdown">
+          <button class="dropbtn" onclick="window.location.href='stay.html'">Stay</button>
+        <div class="dropdown-pages">
+          <a href="hotels.html">Hotels</a>
+          <a href="bed.html">Bed & Breakfasts</a>
+          <a href="camp.html">Camping</a>
+          <a href="vacation.html">Vacation Rentals</a>
+        </div>
+      </div>
+      <a href="#">Play</a>
+      <a href="eat.html">Eat</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <!--hamburger navigation menu icon-->
+        <i class="fa fa-bars"></i>
+      </a>
+     </div>
+    <!--Hero banner image on stay page-->
+    <div class="banner4"></div>
+    <!--Div for exploring the island-->
+    <div class="content">
+      <h2 class="content">What to Do</h2>
+      <!--HR divider-->
+    <hr class="divider">
+    <!--Explore paragraph-->
+      <p class="content">Assateague Island is a great place to explore the
+        beautiful coastal wildlife, sandy beaches, salt marshes, and maritime forests. Visitors have
+        several activities to choose such as birdwatching, dolphin watching, fishing, kayaking, watching the pony swim, bicycling, swimming, and beachcombing.</p>
+        <!--Birdwatching-->
+       <h2 class="content">Birdwatching</h2>
+       <a href="images/birds.png" data-lightbox="playImgs" data-title="Birdwatching">
+         <img src="images/birds.png" alt="Birds" class="play">
+       </a>
+       <p class="content">Assateague Island is home to over 300 species of
+        migratory and resident birds including bald eagles. Visitors
+        can go birdwatching year-round on their own by vehicle or take a kayak or guided
+        boat tour for an incredible wildlife experience.</p>
+       <!--Fishing-->
+       <h2 class="content">Fishing</h2>
+       <a href="images/fish.png" data-lightbox="playImgs" data-title="Fishing">
+         <img src="images/fish.png" alt="Fish" class="play">
+       </a>
+       <p class="content">Assateague Island is home to one of the best places for
+         inshore and surf fishing. Popular fish include the Black Drum, Bluefish, Croaker, Flounder, Sea Trout, Speckled Trout, and Striped Bass.</p>
+       <!--Kayaking-->
+       <h2 class="content">Kayaking</h2>
+       <a href="images/kayak.png" data-lightbox="playImgs" data-title="Kayaking">
+         <img src="images/kayak.png" alt="Kayak" class="play">
+       </a>
+       <p class="content">Assateague Island offers an incredible kayaking experience
+       at Assateague Island National Seashore. Visitors will see wildlife such as herds of wild ponies and bald eagles, lighthouses, and pristine waterways.
+       <a href="https://www.facebook.com/AssateagueExplorer/">Assateague Explorer</a> offers kayaking tours that include kayaks, paddles, PFDs, kayaking instructions, and tour guides.</p>
+       <!--Pony Swim-->
+       <h2 class="content">Pony Swim</h2>
+       <a href="images/pony.png" data-lightbox="playImgs" data-title="Pony Swim">
+         <img src="images/pony.png" alt="pony" class="play">
+       </a>
+       <p class="content">The <a href="https://www.chincoteague.com/pony_swim_guide.html">Pony Swim</a> takes place on the last Wednesday and Thursday of July annually in Chincoteague, Virginia. The local fire department rounds up the wild poinies, which swim across the Assateague channel. Around 40,000 visitors come see the pony swim that dates back to 1925. Marguerite Henry's classic book <em>Misty of Chincoteague Island</em> has captured the interest of horse lovers across the world to come see this pony swim every year.</p>
+      </div>
+      <!-- Back to top button -->
+      <a id="button" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+  <!--Footer containing copyright notice and link to logomakr.com-->
+  <div class="footer">
+    <p>Copyright 2020 By Valerie Hare. Created my free logo at <a href="https://logomakr.com/">LogoMakr.</a></p>
+  </div>
+ </div>
+ <!--Bootstrap jQuery, Popper.JS, and Bootstrap JS Sript CDN-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!--External JS file-->
+  <script src="scripts/main.js"></script>
+  <!--Lighbox JS file-->
+  <script src="scripts/lightbox-plus-jquery.js"></script>
+ </body>
+</html>
