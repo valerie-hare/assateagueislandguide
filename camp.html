@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Font Awesome Icon for Scroll to Top Button-->
   <script src="https://kit.fontawesome.com/6343a75528.js" crossorigin="anonymous"></script>
+  <!--Lightbox Stylesheet-->
+  <link rel="stylesheet" href="styles/lightbox.css">
   <!--External Main Stylesheet-->
   <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -52,7 +54,9 @@
     <hr class="divider">
     <!--Camp Info section-->
       <h3 class="campInfo">Assateague State Park</h3>
-      <img src="images/camp1.jpg" alt="Assateague State Park" class="camp">
+      <a href="images/camp1.jpg" data-lightbox="campImgs" data-title="Assateague State Park">
+        <img src="images/camp1.jpg" alt="Assateague State Park" class="camp">
+      </a>
       <p class="campInfo">This state park offers 342 campsites with a fire ring and picnic table. Some sites have electric hook-ups for RVs and are pet-friendly.</p>
       <p class="campInfo">6915 Stephen Decatur Hwy<br>Berlin, MD 21811</p>
       <a href="tel:1-410-641-2918" class="campInfo">(410) 641-2918</a><br>
@@ -60,7 +64,9 @@
       <!--HR divider-->
       <hr class="divider">
       <h3 class="campInfo">Pocomoke River State Park</h3>
-      <img src="images/camp2.jpg" alt="Pocomoke River State Park" class="camp">
+      <a href="images/camp2.jpg" data-lightbox="campImgs" data-title="Pocomoke River State Park">
+        <img src="images/camp2.jpg" alt="Pocomoke River State Park" class="camp">
+      </a>
       <p class="campInfo">This state park offers 175 campsites that come with a picnic table and fire ring. The public washhouses have hot water showers, toilets, and a laundry tub. Some campites have electric hook-ups and dumping stations.</p>
       <p class="campInfo">3461 worcester Hwy<br>Snow Hill, MD 21863</p>
       <a href="tel:1-410-632-2566" class="campInfo">(410) 632-2566</a><br>
@@ -68,7 +74,9 @@
       <!--HR divider-->
       <hr class="divider">
       <h3 class="campInfo">Castaways RV Resort LLC</h3>
-      <img src="images/camp3.jpg" alt="Castaways RV Resort LLC" class="camp">
+      <a href="images/camp3.jpg" data-lightbox="campImgs" data-title="Castaways RV Resort LLC">
+        <img src="images/camp3.jpg" alt="Castaways RV Resort LLC" class="camp">
+      </a>
       <p class="campInfo">This 50 acre waterfront propery is located across the bay from Assateague Island National Park. The resort offers 393 campsites that are fully equiped with Wi-Fi, cable TV hook-ups, water, and electric. There are 4 types of campsite options and are pet-friendly.</p>
       <p class="campInfo">12612 Eagles Nest Rd<br>Berlin, MD 21811</p>
       <a href="tel:1-410-213-2267" class="campInfo">(410) 213-2267</a><br>
@@ -76,7 +84,9 @@
       <!--HR divider-->
       <hr class="divider">
       <h3 class="campInfo">Assateague Island National Shore</h3>
-      <img src="images/camp4.jpg" alt="Assateague Island National Seashore" class="camp">
+      <a href="images/camp4.jpg" data-lightbox="campImgs" data-title="Assateague Island National Shore">
+        <img src="images/camp4.jpg" alt="Assateague Island National Seashore" class="camp">
+      </a>
       <p class="campInfo">This protected area offers 5 main campsite types for tents, trailers, and even horse camping. All campsite facilities include access to chemical toilets, cold water showers, and drinking water. </p>
       <p class="campInfo">7206 National Seashore Ln<br>Berlin, MD 21811</p>
       <a href="tel:1-443-614-3547" class="campInfo">(443) 614-3547</a><br>
@@ -93,6 +103,8 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!--Lighbox JS file-->
+  <script src="scripts/lightbox-plus-jquery.min.js"></script>
   <!--External JS file-->
   <script src="scripts/main.js"></script>
  </body>

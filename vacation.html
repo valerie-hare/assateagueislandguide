@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Font Awesome Icon for Scroll to Top Button-->
   <script src="https://kit.fontawesome.com/6343a75528.js" crossorigin="anonymous"></script>
+  <!--Lightbox Stylesheet-->
+  <link rel="stylesheet" href="styles/lightbox.css">
   <!--External Main Stylesheet-->
   <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -52,28 +54,36 @@
     <hr class="divider">
     <!--Vacation Rentals Info section-->
       <h3 class="vacInfo">Chincoteague Island Beach House</h3>
-      <img src="images/vac1.jpg" alt="Chincoteague Island Beach House" class="vac">
+      <a href="images/vac1.jpg" data-lightbox="vacImgs" data-title="Chincoteague Island Beach House">
+        <img src="images/vac1.jpg" alt="Chincoteague Island Beach House" class="vac">
+      </a>
       <p class="vacInfo">This vacation house has 3 bedrooms, 2 baths, an outdoor shower, and a screened porch to overlook the Assateague Channel.</p>
       <p class="vacInfo">Chincoteague, VA 23336</p>
       <button type="button" class="buttonInfo" onclick="location.href='https://www.airbnb.com/rooms/31870334?adults=2&check_in=2020-03-30&check_out=2020-04-02&source_impression_id=p3_1583687734_%2FmO%2F%2FilVUaZFCCPR'">Website</button>
       <!--HR divider-->
       <hr class="divider">
       <h3 class="vacInfo">Assateague Breeze</h3>
-      <img src="images/vac2.jpg" alt="Assateague Breeze" class="vac">
+      <a href="images/vac2.jpg" data-lightbox="vacImgs" data-title="Assateague Breeze">
+        <img src="images/vac2.jpg" alt="Assateague Breeze" class="vac">
+      </a>
       <p class="vacInfo">This vacation home has 3 bedrooms, 2 baths, a gas fireplace, charcoal grill, screened porch, and outdoor shower.</p>
       <p class="vacInfo">Chincoteague, VA 23336</p>
       <button type="button" class="buttonInfo" onclick="location.href='https://www.vrbo.com/1083150?adultsCount=2&arrival=2020-03-30&departure=2020-04-02'">Website</button>
       <!--HR divider-->
       <hr class="divider">
       <h3 class="vacInfo">Coco Banana</h3>
-      <img src="images/vac3.jpg" alt="Coco Banana" class="vac">
+      <a href="images/vac3.jpg" data-lightbox="vacImgs" data-title="Coco Banana">
+        <img src="images/vac3.jpg" alt="Coco Banana" class="vac">
+      </a>
       <p class="vacInfo">This vacation home has 2 bedrooms, 2 baths, a spacious kitchen with a gas range, full-sized washer and dryer, and outdoor shower.</p>
       <p class="vacInfo">Chincoteague, VA 23336</p>
       <button type="button" class="buttonInfo-last" onclick="location.href='https://www.vrbo.com/1895325?adultsCount=2&arrival=2020-03-30&departure=2020-04-02'">Website</button>
       <!--HR divider-->
       <hr class="divider">
       <h3 class="vacInfo">Sand Penny</h3>
-      <img src="images/vac4.jpg" alt="Sand Penny" class="vac">
+      <a href="images/vac4.jpg" data-lightbox="vacImgs" data-title="Sand Penny">
+        <img src="images/vac4.jpg" alt="Sand Penny" class="vac">
+      </a>
       <p class="vacInfo">This vacation duplex has 3 bedrooms, 2 baths, a charcoal grill, screen porch, deck, and outside shower.</p>
       <p class="vacInfo">Chincoteague, VA 23336</p>
       <button type="button" class="buttonInfo-last" onclick="location.href='https://www.vrbo.com/1597016?adultsCount=2'">Website</button>
@@ -91,5 +101,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <!--External JS file-->
   <script src="scripts/main.js"></script>
+  <!--Lighbox JS file-->
+  <script src="scripts/lightbox-plus-jquery.min.js"></script>
  </body>
 </html>

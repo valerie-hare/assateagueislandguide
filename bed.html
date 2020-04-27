@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Font Awesome Icon for Scroll to Top Button-->
   <script src="https://kit.fontawesome.com/6343a75528.js" crossorigin="anonymous"></script>
+  <!--Lightbox Stylesheet-->
+  <link rel="stylesheet" href="styles/lightbox.css">
   <!--External Main Stylesheet-->
   <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -52,7 +54,9 @@
     <hr class="divider">
     <!--Bed & Breakfasts Info section-->
       <h3 class="bedInfo">Miss Molly's Inn</h3>
-      <img src="images/bed1.jpg" alt="Miss Molly's Inn" class="bed">
+      <a href="images/bed1.jpg" data-lightbox="bedImgs" data-title="Miss Molly's Inn">
+        <img src="images/bed1.jpg" alt="Miss Molly's Inn" class="bed">
+      </a>
       <p class="bedInfo">This is a Victorian-era B&B that offers homemade breakfast and tea, as well as access to a library and beach gear.</p>
       <p class="bedInfo">4141 Main St<br>Chincoteague, VA 23336</p>
       <a href="tel:1-757-336-6686" class="bedInfo">(757) 336-6686</a><br>
@@ -60,7 +64,9 @@
       <!--HR divider-->
       <hr class="divider">
       <h3 class="bedInfo">River House Inn</h3>
-      <img src="images/bed2.jpg" alt="River House Inn" class="bed">
+      <a href="images/bed2.jpg" data-lightbox="bedImgs" data-title="River House Inn">
+        <img src="images/bed2.jpg" alt="River House Inn" class="bed">
+      </a>
       <p class="bedInfo">This is a 19th-century B&B that offers several amenities including an outdoor pool, private porches, fireplaces, and an area to barbeque.</p>
       <p class="bedInfo">201 E Market St<br>Snow Hill, MD 21863</p>
       <a href="tel:1-410-632-2722" class="bedInfo">(410) 632-2722</a><br>
@@ -68,14 +74,18 @@
       <!--HR divider-->
       <hr class="divider">
       <h3 class="bedInfo">Cedar Gables Seaside Inn</h3>
-      <img src="images/bed3.jpg" alt="Cedar Gables Seaside Inn" class="bed">
+      <a href="images/bed3.jpg" data-lightbox="bedImgs" data-title="Cedar Gables Seaside Inn">
+        <img src="images/bed3.jpg" alt="Cedar Gables Seaside Inn" class="bed">
+      </a>
       <p class="bedInfo">This is a classic island B&B that offers free Wi-Fi, as well as access to private entraces and breakfast served on waterfront porches.</p>
       <p class="bedInfo">6095 Hopkins Ln<br>Chincoteague, VA 23336</p>
       <a href="tel:1-757-336-6860" class="bedInfo">(757) 336-6860</a><br>
       <!--HR divider-->
       <hr class="divider">
       <h3 class="bedInfo">Island Manor House</h3>
-      <img src="images/bed4.jpg" alt="Island Manor House" class="bed">
+      <a href="images/bed4.jpg" data-lightbox="bedImgs" data-title="Island Manor House">
+        <img src="images/bed4.jpg" alt="Island Manor House" class="bed">
+      </a>
       <p class="bedInfo">Island Manor House is a Southern Colonial-style B&B that offers free Wi-Fi, afternoon tea service, and access to a courtyard.</p>
       <p class="bedInfo">4160 Main St<br>Chincoteague, VA 23336</p>
       <a href="tel:1-757-336-5436" class="bedInfo">(757) 336-5436</a><br>
@@ -94,5 +104,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <!--External JS file-->
   <script src="scripts/main.js"></script>
+  <!--Lighbox JS file-->
+  <script src="scripts/lightbox-plus-jquery.min.js"></script>
  </body>
 </html>
