@@ -147,7 +147,7 @@ p.missionText {
   line-height: 1.4em;
 }
 /*--Scroll to top button--*/
-#button {
+#scroll-to-top-button {
   display: inline-block;
   color: #698DAB;
   opacity: .90;
@@ -162,8 +162,8 @@ p.missionText {
   z-index: 1000;
   cursor: pointer;
 }
-#button:hover {
-  color: #2785CD;
+#scroll-to-top-button:hover {
+  color: #0869B8;
 }
 /*--footer--*/
 .footer {
@@ -518,9 +518,8 @@ icon, which makes the navigation links display vertically on mobile devices--*/
     width: 30%;
   }
   /*--Scroll to top button--*/
-  #button {
+  #scroll-to-top-button {
     display: inline-block;
-    color: #516C83;
     font-size: 28px;
     width: 50px;
     height: 50px;
@@ -626,7 +625,7 @@ p.missionText {
   background-color: #333;
 }
 /*--Scroll to top button--*/
-#button {
+#scroll-to-top-button {
   display: inline-block;
   font-size: 25px;
   width: 50px;
